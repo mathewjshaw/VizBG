@@ -35,8 +35,8 @@
 						<nav>
 							<ul>
 								<li><a href="#intro">Intro</a></li>
-								<li><a href="#viz1">viz1</a></li>
-								<li><a href="#viz2">viz2</a></li>
+								<li><a href="#3D">Death Net</a></li>
+								<li><a href="#viz2">something</a></li>
 								<li><a href="#contact">contact</a></li>
 								<!--<li><a href="#elements">Elements</a></li>-->
 							</ul>
@@ -48,22 +48,54 @@
 
 						<!-- Intro -->
 							<article id="intro">
-								<h2 class="major">Intro</h2>
-								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
-								<p> to be decided </p>
+								<h2 class="major">Introduction of VizBG</h2>
+								<span class="image main"><img src="images/miramar..jpg" alt="" /></span>
+								<p>
+									PlayerUnknown Battlegrounds (PUBG) has been an extremely popular game globally
+									since last year. We are  two of the millions of fans of the game and we decided
+									to make some cool visualization based on the data of the game.
+									<br> <br>
+									The game is an online multi-player battle royal game, where 100 random players are
+									dispersed from a plane to an isolated island to fight and kill. From the first moment
+									of players’ landing, they move around in this space to pick up weapons and supplies so that
+									when they meet other players they are in a better shape to fight. As time goes by in the game,
+									the arena shrinks which forces the players to enter a smaller space and fight.
+									Intuitively, the last player stays alive is the winner.
+									<br><br>Below is a map from the game to give you some sense of the rules.
+									The circle is where players are allowed to move without causing any damage.
+									And the right hand side is the view from any player
+									<br><br>
+
+								    <img src="images/miramar.jpg" alt="" width="560" height="377">
+									<br><br>
+									Strategy about choosing location is very important in this game.
+									The biggest motivation of this project is to learn from the player behavior and
+									understand the strategy players adopt.
+									<br><br>
+									We are glad to find the data we need from kaggle.
+									This public kaggle dataset contains information about 720,000 competitive matches
+									extracted from  pubg.op.gg, a game tracker website
+									<br><br>
+									Please feel free to explore the visualization tabs to interact with the data!
+								</p>
 							</article>
 
 						<!-- Work -->
-							<article id="viz1">
-								<h2 class="major">Viz1</h2>
-								<span class="image main"><img src="images/miramar.jpg" alt="" /></span>
-								<p>TBD, replace the pic with viz</p>
+							<article id="3D">
+								<h2 class="major">3D Death Network</h2>
+								<p>In the below 3D network, we randomly chose one match and visualize the victims - all the players
+								except the top 1 winner, and their corresponding killer. Each dot represents one player and darker
+								color means higher rank</p>
+								<iframe width="550" height="600" frameborder="1" scrolling="yes"
+										src="pubg_network.html"></iframe>
+								<p></p>
 							</article>
 
 						<!-- About -->
 							<article id="viz2">
-								<h2 class="major">Viz2</h2>
-								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
+								<h2 class="major">something</h2>
+								<iframe width="550" height="600" frameborder="1" scrolling="yes"
+										src="https://mathewjshaw.github.io/tmp/"></iframe>
 								<p>TBD, replace the picture with viz</p>
 							</article>
 
@@ -100,7 +132,7 @@
 
 				<!-- Footer -->
 					<footer id="footer">
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<p class="copyright">&copy; Liz Chen. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 					</footer>
 
 			</div>
