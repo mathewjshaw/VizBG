@@ -1,153 +1,150 @@
 <!DOCTYPE HTML>
 <!--
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+   Dimension by HTML5 UP
+   html5up.net | @ajlkn
+   Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+   -->
 <html>
-	<head>
-		<title>VizBG</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body>
-
-		<!-- Wrapper -->
-			<div id="wrapper">
-
-				<!-- Header -->
-					<header id="header">
-						<div class="logo">
-							<span class="icon fa-diamond"></span>
-						</div>
-						<div class="content">
-							<div class="inner">
-								<h1>PlayerUnknown's Battlegrounds</h1>
-								<p>A fully interactive visulization of the game by <a href="https://www.linkedin.com/in/yimei-liz-chen-6b4a267b/">
-									Liz Chen</a> and <a href="https://www.linkedin.com/in/mathewjshaw/">
-									Mathew Shaw</a>
-								</p>
-							</div>
-						</div>
-						<nav>
-							<ul>
-								<li><a href="#intro">Intro</a></li>
-								<li><a href="#network">Network</a></li>
-								<li><a href="https://mathewjshaw.github.io/tmp/">Strategy</a></li>
-								<li><a href="#contact">Authors</a></li>
-								<!--<li><a href="#elements">Elements</a></li>-->
-							</ul>
-						</nav>
-					</header>
-
-				<!-- Main -->
-					<div id="main">
-
-						<!-- Intro -->
-							<article id="intro">
-								<h2 class="major">Introduction of VizBG</h2>
-								<span class="image main"><img src="images/miramar..jpg" alt="" /></span>
-								<p>
-									PlayerUnknown Battlegrounds (PUBG) has been an extremely popular game globally
-									since last year. We are  two of the millions of fans of the game and we decided
-									to make some cool visualization based on the data of the game.
-									<br> <br>
-									The game is an online multi-player battle royal game, where 100 random players are
-									dispersed from a plane to an isolated island to fight and kill. From the first moment
-									of players’ landing, they move around in this space to pick up weapons and supplies so that
-									when they meet other players they are in a better shape to fight. As time goes by in the game,
-									the arena shrinks which forces the players to enter a smaller space and fight.
-									Intuitively, the last player stays alive is the winner.
-									<br><br>Below is a map from the game to give you some sense of the rules.
-									The circle is where players are allowed to move without causing any damage.
-									And the right hand side is the view from any player
-									<br><br>
-
-								    <img src="images/miramar.jpg" alt="" width="560" height="377">
-									<br><br>
-									Strategy about choosing location is very important in this game.
-									The biggest motivation of this project is to learn from the player behavior and
-									understand the strategy players adopt.
-									<br><br>
-									We are glad to find the data we need from kaggle.
-									This public kaggle dataset contains information about 720,000 competitive matches
-									extracted from  pubg.op.gg, a game tracker website
-									<br><br>
-									Please feel free to explore the visualization tabs to interact with the data!
-								</p>
-							</article>
-
-						<!-- Work -->
-							<article id="3D">
-								<h2 class="major">3D Death Network</h2>
-								<p>In the below 3D network, we randomly chose one match and visualize the victims - all the players
-								except the top 1 winner, and their corresponding killer. Each dot represents one player and darker
-								color means higher rank</p>
-								<iframe width="550" height="600" frameborder="1" scrolling="yes"
-										src="pubg_network.html"></iframe>
-								<p></p>
-							</article>
-
-						<!-- About -->
-							<article id="viz2">
-								<h2 class="major">Parallel Coordinates</h2>
-								<iframe width="550" height="600" frameborder="1" scrolling="yes"
-										src="https://mathewjshaw.github.io/tmp/"></iframe>
-								<p>TBD, replace the picture with viz</p>
-							</article>
-
-						<!-- Contact -->
-							<article id="contact">
-								<h2 class="major">About the Authors</h2>
-								<span style="text-decoration: underline;">Liz Chen</span>
-								<br><br>
-								<img src="images/liz.jpg" alt="" align="middle" width="260" height="310" >
-								<p>A current master student in Data Science at the University of San Francisco.
-								She enjoys wrestle with complex data and apply machine learning and visualization
-									to tell stories and solve business problems.
-								<br> <br>
-									github portfolios: https://github.com/YimeiChen
-								<br>
-									contact: ychen293@dons.usfca.edu
-								</p>
-							    <span style="text-decoration: underline;">Mathew Shaw</span>
-								<br><br>
-								<img src="images/matt.jpg" alt="" align="middle" width="260" height="310" >
-								<p>matt's intro
-								<br> <br>
-									github portfolios: https://github.com/Mathewjshaw
-								<br>
-									contact: email
-								</p>
+   <head>
+      <title>VizBG</title>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+      <link rel="stylesheet" href="assets/css/main.css" />
+      <!--[if lte IE 9]>
+      <link rel="stylesheet" href="assets/css/ie9.css" />
+      <![endif]-->
+      <noscript>
+         <link rel="stylesheet" href="assets/css/noscript.css" />
+      </noscript>
+   </head>
+   <body>
 
 
+      <!-- Wrapper -->
+      <div id="wrapper">
+         <!-- Header -->
+         <header id="header">
+            <div class="logo">
+               <span class="icon fa-diamond"></span>
+            </div>
+            <div class="content">
+               <div class="inner">
+                  <h1>PlayerUnknown's Battlegrounds</h1>
+                  <p>A fully interactive visulization of the game by <a href="https://www.linkedin.com/in/yimei-liz-chen-6b4a267b/">
+                     Liz Chen</a> and <a href="https://www.linkedin.com/in/mathewjshaw/">
+                     Mathew Shaw</a>
+                  </p>
+               </div>
+            </div>
+            <nav>
+               <ul>
+                  <li><a href="#intro">Intro</a></li>
+                  <li><a href="#network">Network</a></li>
+                  <li><a href="https://mathewjshaw.github.io/tmp/">Strategy</a></li>
+                  <li><a href="#contact">Authors</a></li>
+                  <!--<li><a href="#elements">Elements</a></li>-->
+               </ul>
+            </nav>
+         </header>
 
 
+         <!-- Main -->
+         <div id="main">
+            <!-- Intro -->
+            <article id="intro">
+               <h2 class="major">Introduction of VizBG</h2>
+               <span class="image main"><img src="images/miramar..jpg" alt="" /></span>
+               <p>
+                  PlayerUnknown Battlegrounds (PUBG) has been an extremely popular game globally
+                  since last year. We are  two of the millions of fans of the game and we decided
+                  to make some cool visualization based on the data of the game.
+                  <br> <br>
+                  The game is an online multi-player battle royal game, where 100 random players are
+                  dispersed from a plane to an isolated island to fight and kill. From the first moment
+                  of players’ landing, they move around in this space to pick up weapons and supplies so that
+                  when they meet other players they are in a better shape to fight. As time goes by in the game,
+                  the arena shrinks which forces the players to enter a smaller space and fight.
+                  Intuitively, the last player stays alive is the winner.
+                  <br><br>Below is a map from the game to give you some sense of the rules.
+                  The circle is where players are allowed to move without causing any damage.
+                  And the right hand side is the view from any player
+                  <br><br>
+                  <img src="images/miramar.jpg" alt="" width="560" height="377">
+                  <br><br>
+                  Strategy about choosing location is very important in this game.
+                  The biggest motivation of this project is to learn from the player behavior and
+                  understand the strategy players adopt.
+                  <br><br>
+                  We are glad to find the data we need from kaggle.
+                  This public kaggle dataset contains information about 720,000 competitive matches
+                  extracted from  pubg.op.gg, a game tracker website
+                  <br><br>
+                  Please feel free to explore the visualization tabs to interact with the data!
+               </p>
+            </article>
 
 
-					</div>
-						<!-- Elements -->
+            <!-- Work -->
+            <article id="3D">
+               <h2 class="major">3D Death Network</h2>
+               <p>In the below 3D network, we randomly chose one match and visualize the victims - all the players
+                  except the top 1 winner, and their corresponding killer. Each dot represents one player and darker
+                  color means higher rank
+               </p>
+               <iframe width="550" height="600" frameborder="1" scrolling="yes"
+                  src="pubg_network.html"></iframe>
+               <p></p>
+            </article>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<p class="copyright">&copy; Liz Chen. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-					</footer>
 
-			</div>
+            <!-- About -->
+            <article id="viz2">
+               <h2 class="major">Parallel Coordinates</h2>
+               <iframe width="550" height="600" frameborder="1" scrolling="yes"
+                  src="https://mathewjshaw.github.io/tmp/"></iframe>
+               <p>TBD, replace the picture with viz</p>
+            </article>
 
-		<!-- BG -->
-			<div id="bg">
-				<span class="image main"><img src="images/bg.jpg" alt="" /></span>
-			</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+            <!-- Contact -->
+            <article id="contact">
+            <h2 class="major">About the Authors</h2>
+            <span style="text-decoration: underline;">Liz Chen</span>
+            <br><br>
+            <img src="images/liz.jpg" alt="" align="middle" width="260" height="310" >
+            <p> Liz Chen is currently pursuing a Masters in Data Science at the University of San Francisco. She enjoys wrestle with complex data and apply machine learning and visualization
+               to tell stories and solve business problems.
+               <br> <br>
+               <a href="https://github.com/yimei">Github</a>
+               <br>
+               <a href="ychen293@dons.usfca.edu">Email</a>
+            </p>
+            <span style="text-decoration: underline;">Mathew Shaw</span>
+            <br><br>
+            <img src="images/matt.jpg" alt="" align="middle" width="260" height="310" >
+            <p> Mathew Shaw is also currently pursuing a Masters in Data Science at the University of San Francisco. He enjoys working with user data accross several industries to gain a better understanding of behaivor and classification. 
+               <br> <br>
+               <a href="https://github.com/Mathewjshaw">Github</a>
+               <br>
+               <a href="mathewjshaw@gmail.com">Email</a>
+            </p>
+         </div>
 
-	</body>
+         
+         <!-- Elements -->
+         <!-- Footer -->
+         <footer id="footer">
+            <p class="copyright">&copy; Liz Chen. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+         </footer>
+      </div>
+      <!-- BG -->
+      <div id="bg">
+         <span class="image main"><img src="images/bg.jpg" alt="" /></span>
+      </div>
+      <!-- Scripts -->
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/skel.min.js"></script>
+      <script src="assets/js/util.js"></script>
+      <script src="assets/js/main.js"></script>
+   </body>
 </html>
